@@ -77,7 +77,7 @@ export async function getPostByName(
 
 export async function getPostsMeta(): Promise<Meta[] | undefined> {
   const res = await fetch(
-    'https://api.github.com/repos/baroxdev/demo-content/git/trees/main?recursive=1',
+    'https://api.github.com/repos/baroxdev/demo-content/git/trees/master?recursive=1',
     {
       headers: {
         Accept: 'application/vnd.github+json',
