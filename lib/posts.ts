@@ -4,7 +4,7 @@ import rehypeHighlight from 'rehype-highlight/lib';
 import rehypeSlug from 'rehype-slug';
 import Video from '@/app/components/Video';
 import CustomImage from '@/app/components/CustomImage';
-
+import Image from 'next/image';
 type Filetree = {
   tree: [
     {
@@ -42,6 +42,7 @@ export async function getPostByName(
     components: {
       Video,
       CustomImage,
+      Image: Image,
     },
     options: {
       parseFrontmatter: true,
