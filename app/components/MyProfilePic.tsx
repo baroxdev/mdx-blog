@@ -8,7 +8,7 @@ export default function MyProfilePic() {
         src='https://mangoads.vn/uploads/2013/12/Logo-MangoAds.png'
         width={200}
         height={200}
-        alt='Dave Gray'
+        alt='Mangoads'
         priority={true}
       />
     </section>
